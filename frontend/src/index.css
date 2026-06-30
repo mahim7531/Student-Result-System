@@ -1,18 +1,14 @@
-import { defineConfig } from 'vite'
-
-import react from '@vitejs/plugin-react'
-
-import tailwindcss from '@tailwindcss/vite'
+@import "tailwindcss";
 
 
-export default defineConfig({
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
 
-plugins:[
-
-react(),
-
-tailwindcss()
-
-]
-
-})
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #1e293b
+  );
+}
